@@ -20,7 +20,7 @@ setup(
                 "gems/FitCurves.c",
                 "gems/GraphicsGems.c",
             ],
-            extra_compile_args=["-Wl,--no-undefined", "-O3"],
+            extra_compile_args=["-Wl,--no-undefined", "-O3", "-std=c99"],
         )
     ],
 )
